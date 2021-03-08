@@ -1,0 +1,40 @@
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\Text Adventure.exe
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\Text Adventure.deps.json
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\Text Adventure.runtimeconfig.json
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\Text Adventure.runtimeconfig.dev.json
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\Text Adventure.dll
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\Text Adventure.pdb
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.csprojAssemblyReference.cache
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.AssemblyInfoInputs.cache
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.AssemblyInfo.cs
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.csproj.CoreCompileInputs.cache
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.dll
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.pdb
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.genruntimeconfig.cache
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\NAudio.dll
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\NAudio.Vorbis.dll
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\NVorbis.dll
+C:\Users\AkeemOB\source\repos\Text Adventure\bin\Debug\netcoreapp3.1\System.Resources.Extensions.dll
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.csproj.CopyComplete
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text_Adventure.Properties.Resources.resources
+C:\Users\AkeemOB\source\repos\Text Adventure\obj\Debug\netcoreapp3.1\Text Adventure.csproj.GenerateResource.cache
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csprojAssemblyReference.cache
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text_Adventure.Properties.Resources.resources
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csproj.GenerateResource.cache
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.AssemblyInfoInputs.cache
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.AssemblyInfo.cs
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csproj.CoreCompileInputs.cache
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.dll
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.pdb
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\Text Adventure.exe
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\Text Adventure.deps.json
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\Text Adventure.runtimeconfig.json
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\Text Adventure.runtimeconfig.dev.json
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\Text Adventure.dll
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\Text Adventure.pdb
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\NAudio.dll
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\NAudio.Vorbis.dll
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\NVorbis.dll
+C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\System.Resources.Extensions.dll
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csproj.CopyComplete
+C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.genruntimeconfig.cache

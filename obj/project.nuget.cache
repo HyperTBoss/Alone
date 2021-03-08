@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "FY08P1GnC9rfLmoVgAN6JaIHfnBgludU4oIzRpXneCLLvR7RHTpYdZSlXfJwXUnExJLzD6N56ADl428mUvpWZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AkeemOB\\source\\repos\\Backup\\Alone\\Text Adventure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\naudio\\1.10.0\\naudio.1.10.0.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\naudio.vorbis\\1.2.0\\naudio.vorbis.1.2.0.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\nvorbis\\0.10.0\\nvorbis.0.10.0.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\system.resources.extensions\\4.7.0\\system.resources.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\AkeemOB\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
