@@ -38,3 +38,23 @@ C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\NVorbis.dll
 C:\Users\AkeemOB\source\repos\Alone\bin\Debug\netcoreapp3.1\System.Resources.Extensions.dll
 C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csproj.CopyComplete
 C:\Users\AkeemOB\source\repos\Alone\obj\Debug\netcoreapp3.1\Text Adventure.genruntimeconfig.cache
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\Text Adventure.exe
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\Text Adventure.deps.json
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\Text Adventure.runtimeconfig.json
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\Text Adventure.runtimeconfig.dev.json
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\Text Adventure.dll
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\Text Adventure.pdb
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\NAudio.dll
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\NAudio.Vorbis.dll
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\NVorbis.dll
+E:\Akeem's Project\Website\Perfestional-Website\Alone\bin\Debug\netcoreapp3.1\System.Resources.Extensions.dll
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csprojAssemblyReference.cache
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text_Adventure.Properties.Resources.resources
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csproj.GenerateResource.cache
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.AssemblyInfoInputs.cache
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.AssemblyInfo.cs
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csproj.CoreCompileInputs.cache
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.csproj.CopyComplete
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.dll
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.pdb
+E:\Akeem's Project\Website\Perfestional-Website\Alone\obj\Debug\netcoreapp3.1\Text Adventure.genruntimeconfig.cache

@@ -9,18 +9,18 @@ namespace Text_Adventure
     //This class will act as the sender and modifier for UserData and ChapterTextStorage.
     class DataInterface
     {
-        public class DataStorageTempObject
+        private class DataStorageTempObject
         {
             private int Int { get; set; }
             private string String { get; set; }
             private char Char { get; set; }
             private string Vector2D { get; set; }
-            public DataStorageTempObject(int interger = 0, string sequenceOfChar = " ", char character = ' ', string Vector2DMatrix = "0,0") //Yes, it looks like a penis. A really small penis with big balls.
+            public DataStorageTempObject(int interger = 0, string sequenceOfChar = " ", char character = ' ', int Vector2DMatrixX = 0, int Vector2DMatrixY = 0) //Yes, it looks like a penis.
             {
                 Int = interger;
                 String = sequenceOfChar;
                 Char = character;
-                Vector2D = Vector2DMatrix;
+                Vector2D = Vector2DMatrixX.ToString() + Vector2DMatrixY.ToString();
             }
             // Other properties, methods, events...
         }

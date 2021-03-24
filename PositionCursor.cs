@@ -14,10 +14,14 @@ namespace Text_Adventure
         public static int endWaitingTime { get; set; } = 100;
         public static int CharSpacing { get; set; } = 1;
 
-        static private int screenMaxWidth = Source.maxDrawWidth;
-        static private int screenMaxHight = Source.maxDrawHight;
+        private static int screenMaxWidth = Source.maxDrawWidth + 1;
+        private static int screenMaxHight = Source.maxDrawHight;
 
+        //private Thread Start = new Thread(StartBefore);
+        //private Thread End = new Thread(FinishAfter);
 
+        private static Vector2D OptionalAugOne = new Vector2D();
+        private static Vector2D OptionalAugTwo = new Vector2D();
         static private Vector2D GetCursoirPosition()
         {
             return new Vector2D(Console.CursorLeft, Console.CursorTop);
@@ -82,15 +86,16 @@ namespace Text_Adventure
                 }
             }
         }
-
         /**
          * This will produce a line from point a/CurrentPosition to point b/EndPosition.
          * This method will be used with all other methods below, however: 
          * I think that I will need to remove the line drawing algorithm to it's own seperate method.
          * This'll make it more segmented and clean.
         **/
+
         static private void LineDrawing(Vector2D CurrentPosition, Vector2D EndPosition, string wantedChar, int colour = 15)
         {
+
             int w = EndPosition.X - CurrentPosition.X;
             int h = EndPosition.Y - CurrentPosition.Y;
 
@@ -109,7 +114,9 @@ namespace Text_Adventure
                 if (h < 0) dy2 = -1; else if (h > 0) dy2 = 1;
                 dx2 = 0;
             }
+
             int numerator = longest >> 1;
+
             for (int i = 0; i <= longest; i++)
             {
                 if (TestUserCursorPosition() == true)
@@ -121,7 +128,7 @@ namespace Text_Adventure
                 PlaceCursorPosition(currentPosition);
 
                 Console.ForegroundColor = ConsoleColor.White;
-
+                
                 ConsoleGraphics.DrawText(wantedChar, colour);
                 numerator += shortest;
                 if (!(numerator < longest))
@@ -136,6 +143,7 @@ namespace Text_Adventure
                     currentPosition.Y += dy2;
                 }
             }
+
         }
         static public void Point(Vector2D CurrentPosition,string wantedChar, int colour = 15)
         {
@@ -155,14 +163,14 @@ namespace Text_Adventure
             Vector2D pointThree = new Vector2D(EndPosition.X, EndPosition.Y);
             Vector2D pointFour = new Vector2D(CurrentPosition.X, EndPosition.Y);
 
-            LineDrawing(pointOne, pointTwo, wantedChar);
-            LineDrawing(pointTwo, pointThree, wantedChar);
-            LineDrawing(pointThree, pointFour, wantedChar);
+            LineDrawing(pointOne, pointTwo, wantedChar, colour);
+            LineDrawing(pointTwo, pointThree, wantedChar, colour);
+            LineDrawing(pointThree, pointFour, wantedChar, colour);
 
             //The reason why I've reasigned the variable is that there's something giving pointOne a new X value.
             pointOne = new Vector2D(CurrentPosition.X, CurrentPosition.Y);
 
-            LineDrawing(pointFour, pointOne, wantedChar);
+            LineDrawing(pointFour, pointOne, wantedChar, colour);
         }
 
         static public void Triangle(Vector2D CurrentPosition, Vector2D MiddlePosition, Vector2D EndPosition, string wantedChar, int colour = 15)
@@ -171,13 +179,13 @@ namespace Text_Adventure
             Vector2D pointTwo = new Vector2D(MiddlePosition.X, MiddlePosition.Y);
             Vector2D pointThree = new Vector2D(EndPosition.X, EndPosition.Y);
 
-            LineDrawing(pointOne, pointTwo, wantedChar);
-            LineDrawing(pointTwo, pointThree, wantedChar);
+            LineDrawing(pointOne, pointTwo, wantedChar, colour);
+            LineDrawing(pointTwo, pointThree, wantedChar, colour);
 
             //The reason why I've reasigned the variable is that there's something giving pointOne a new X value.
             pointOne = new Vector2D(CurrentPosition.X, CurrentPosition.Y);
 
-            LineDrawing(pointThree, pointOne, wantedChar);
+            LineDrawing(pointThree, pointOne, wantedChar, colour);
         }
         static public void Circal(Vector2D CurrentPosition, Vector2D Radius, Vector2D vectorPos)
         {
@@ -185,8 +193,9 @@ namespace Text_Adventure
         }
 
         //Text based input
-        static public void Textbox(string[] Paragrahp, Vector2D BoundboxUpLeft, Vector2D BoundboxDownRight, string wantedCharBoundBox, int horizontalBuffer = 0, int verticalBuffer = 1, bool userContinue = false, bool clearAfterParagrahp = false, int colour = 15)
+        static public void Textbox(string[] Paragrahp, Vector2D BoundboxUpLeft, Vector2D BoundboxDownRight, string wantedCharBoundBox = null, int horizontalBuffer = 0, int verticalBuffer = 1, int paragrahpSpaceingbool = 0, bool userContinue = false, bool clearAfterParagrahp = false, int colour = 15)
         {
+
             //Store a broken down Paragrahps with a List
             string[][] stringParagraphStorage = storeStrings(Paragrahp);
 
@@ -213,7 +222,7 @@ namespace Text_Adventure
 
                 if (clearAfterParagrahp == true)
                 {
-                    ConsoleGraphics.ClearSquareArea(cursourStartingPoint, new Vector2D(BoundboxDownRight.X - 2, BoundboxDownRight.Y - verticalBuffer - 2));
+                    ConsoleGraphics.ClearSquareArea(cursourStartingPoint, new Vector2D(BoundboxDownRight.X - horizontalBuffer - horizontalBuffer, BoundboxDownRight.Y - verticalBuffer - verticalBuffer));
 
                     cursourRepositionPoint = new Vector2D(cursourStartingPoint);
                 }
@@ -256,7 +265,7 @@ namespace Text_Adventure
                     UserWait();
                 }
 
-                cursourRepositionPoint.Y += horizontalBuffer;
+                cursourRepositionPoint.Y += horizontalBuffer + paragrahpSpaceingbool;
                 PlaceCursorPosition(cursourRepositionPoint);
             }
 

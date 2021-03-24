@@ -79,6 +79,8 @@ namespace Text_Adventure
                 try
                 {
                     vorbisStream.Dispose();
+                    waveOut.Dispose();
+
                     vorbisStream = new VorbisWaveReader(BGMfiles[audioIndex]);
                     
                     switch (BusType)

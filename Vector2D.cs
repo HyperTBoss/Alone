@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Text_Adventure
 {
-    class Vector2D
+    public sealed class Vector2D
     {
         private int[] vector2D = new int[2];
 

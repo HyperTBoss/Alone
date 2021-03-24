@@ -55,10 +55,10 @@ namespace Text_Adventure
             SetConsoleProperties(trueMaxWidth, trueMaxHight, maxBWidth, maxBHight);
             //All console related changes go here.
 
-            InstalizeStoredInformation(); 
+            InstalizeStoredInformation();
             //Gets information from ini files or settings files, then uses that information to modifie
             //the program or save data.
-            
+
             ApplicationStart();
             //Where the Text Adventure game starts.
         }

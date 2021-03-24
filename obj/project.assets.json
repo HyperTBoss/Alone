@@ -470,11 +470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AkeemOB\\source\\repos\\Backup\\Alone\\Text Adventure.csproj",
+      "projectUniqueName": "E:\\Akeem's Project\\Website\\Perfestional-Website\\Alone\\Text Adventure.csproj",
       "projectName": "Text Adventure",
-      "projectPath": "C:\\Users\\AkeemOB\\source\\repos\\Backup\\Alone\\Text Adventure.csproj",
+      "projectPath": "E:\\Akeem's Project\\Website\\Perfestional-Website\\Alone\\Text Adventure.csproj",
       "packagesPath": "C:\\Users\\AkeemOB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AkeemOB\\source\\repos\\Backup\\Alone\\obj\\",
+      "outputPath": "E:\\Akeem's Project\\Website\\Perfestional-Website\\Alone\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AkeemOB\\AppData\\Roaming\\NuGet\\NuGet.Config",
