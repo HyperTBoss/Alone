@@ -18,7 +18,6 @@
     <Folder Include="Files for my Future game Engine\ExternalnDependencies\" />
     <Folder Include="Files for my Future game Engine\HeaderFiles\" />
     <Folder Include="Files for my Future game Engine\" />
-    <Folder Include="Resource_Files\AudioFiles\BGM\" />
     <Folder Include="TextManipulation\" />
   </ItemGroup>
 

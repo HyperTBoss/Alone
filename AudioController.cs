@@ -30,7 +30,7 @@ namespace Text_Adventure
 
         //Refrences all audio Files
         private static string[] SFXfiles = Directory.GetFiles(@"..\..\..\Resource_Files\AudioFiles\SFX\", "*.wav");
-        private static string[] BGMfiles = Directory.GetFiles(@"..\..\..\Resource_Files\AudioFiles\BGM\", "*.ogg");
+        private static string[] BGMfiles = Directory.GetFiles(@"..\..\..\Resource_Files\AudioFiles\BGM\", "*.wav");
 
         public static class BusControl
         {

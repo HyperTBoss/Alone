@@ -19,7 +19,7 @@ namespace Text_Adventure.Chapters
 
         public static void Start()
         {
-            AudioController.BusControl.PlayOGGAudioFiles(0, 0, 5);
+            AudioController.BusControl.PlayWavAudioFiles(0, 0, 0);
 
             StartGraphics();
 
@@ -42,7 +42,7 @@ namespace Text_Adventure.Chapters
                     "Welcome, human. This adventure will be quite linear. I hope to remedy that in the future, but first; tell me your name...",
                     "In 3 months or so. Or less then that. I need time to develop this. As it is now, it's quite unfinshed. This just needs to be realesed before the End of March.",
                     "Now, I shall see you later."
-                }, new Vector2D(PositionUpLeft.X + 5, PositionUpLeft.Y + 5), new Vector2D(PositionDownRight.X - 5, PositionDownRight.Y - 20), horizontalBuffer: 4, verticalBuffer: 4, userContinue: true, clearAfterParagrahp: false);
+                }, new Vector2D(PositionUpLeft.X + 5, PositionUpLeft.Y + 5), new Vector2D(PositionDownRight.X - 5, PositionDownRight.Y - 20), horizontalBuffer: 4, verticalBuffer: 5, userContinue: true, clearAfterParagrahp: false);
 
         }
 
