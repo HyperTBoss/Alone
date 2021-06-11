@@ -72,7 +72,6 @@ namespace Text_Adventure
 
                 Console.ForegroundColor = ConsoleColor.White;
 
-                System.Threading.Thread.Sleep(1);
                 Console.ReadKey();
             }
             catch (Exception e)
